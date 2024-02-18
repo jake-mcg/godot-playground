@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Godot Playground"
+run/main_scene="res://signal_bus/signal_bus_demo.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GenericSignalBus="*res://signal_bus/generic_signal_bus.gd"
 
 [rendering]
 
