@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://iwlqywh3630u"]
+
+[ext_resource type="Script" path="res://vector_math/vector_math_debug.gd" id="1_o2qjv"]
+
+[node name="VectorMath" type="Node"]
+script = ExtResource("1_o2qjv")
